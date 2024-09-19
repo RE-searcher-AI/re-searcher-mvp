@@ -11,67 +11,67 @@
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
-Ovaj projekat se bavi razvojem **inteligentnog asistenta**. Njegova osnovna funkcija je da korisniku olakša pretragu informacija unutar ličnih dokumenata.
+RE:searcher is an AI-powered app designed to assist academics by enabling them to interact with their documents and generate mind maps seamlessly. Developed during the SAIS 24-hour hackathon, it won first place for its innovative approach to academic research.
 
-### Osobine alata:
+This is the original repository, unchanged, as it was submitted on the competition. We continued developing the application; more about you can see here: [https://re-searcher.web.app/](https://re-searcher.web.app/)
 
-- Otpremanje datoteka
-- Formulisanje pitanja
-- Kreiranje sažetih pregleda sadržaja
-- Efikasno čuvanje korisnikovih beleški
+### Tool Features
+- Question formulation
+- Creating summarized content overviews
+- Efficiently saving user notes
 
-### Cilj:
+### Goal
 
-Cilj je omogućiti korisnicima jednostavno pretraživanje i upravljanje dokumentima, formulisanje pitanja, kreiranje beleški, generisanje paragrafa i definisanje tema i apstrakta dokumenata.
+The goal is to provide users with a simple way to search and manage documents, formulate questions, create notes, generate paragraphs, and define document topics and abstracts.
 
-# Dokumentacija PDF
-[RE:SEARCHER - Kompletna dokumentacija](https://github.com/Serbian-AI-Society/OfficeTime/blob/main/assets/REsearcher%20Dokumentacija.pdf)
+# Documentation PDF
+[RE:SEARCHER - Complete documentation in Serbian](https://github.com/Serbian-AI-Society/OfficeTime/blob/main/assets/REsearcher%20Dokumentacija.pdf)
 
 ## Implementacija
 
-Naš repozitorijum projekta se sastoji od dva direktorijuma: **backend** i **frontend**.
+Our project repository consists of two directories: **backend** and **frontend**.
 
 ### Flutter - _re_searcher_ui_
 
-Frontend naše aplikacije koristi Flutter za korisnički interfejs. Hostovan je na Firebase-u. Za efikasno upravljanje stanjem aplikacije koristi se BLOC šablon. Zahvaljujući Flutteru, aplikacija može da radi na svim mobilnim i desktop platformama, kao i na webu.
+The frontend of our application uses Flutter for the user interface and is hosted on Firebase. For efficient state management, the BLOC pattern is employed. Thanks to Flutter, the application can run on all mobile and desktop platforms, as well as on the web.
 
 ### Flask - _re_searcher_api_
 
-Backend naše aplikacije koristi Flask mikro-okvir. Omogućava efikasnu interakciju sa chat botom kroz segmente za obradu poruka, preuzimanje dokumenata i autentifikaciju. Koristi AWS servise, RAG model i Pinecone vector DB za precizno pretraživanje i upravljanje podacima, obezbeđujući relevantne informacije i sigurnu komunikaciju.
+The backend of our application uses the Flask micro-framework, enabling efficient interaction with the chatbot through message processing, document retrieval, and authentication. It leverages AWS services, the RAG model, and Pinecone vector DB for precise data search and management, ensuring relevant information and secure communication.
 
-## Arhitektura rešenja i Dijagram slučajeva korišćenja
+## Solution Architecture and Use Case Diagram
 
-### Arhitektura rešenja
+### Solution Architecture
 
 <image src="assets/project_architecture.jpg" alt="Arhitektura rešenja">
 
-### Dijagram slučajeva korišćenja
+### Use Case Diagram
 
 <image src="assets/UseCase.png" alt="Image description">
 
-## Izgled aplikacije
+## Application UIUX
 
 <image src="assets/showcase.gif" alt="Image description">
 
 <image src="assets/Screenshot1.jpg" alt="Image description">
 
-## Planirane dodatne funkcionalnosti:
+## Planned additional features
 
-- Uvezivanje više dokumenata
-- Izvoz beleški u PDF format
-- Grupisanje dokumenta
-- Prepoznavanje slika
-- Glasovna komunikacija
-- Navigacija kroz istoriju dokumenata
+- Merging multiple documents
+- Exporting notes to PDF format
+- Grouping documents
+- Image recognition
+- Voice communication
+- Navigating through document history
 
-## OfficeTime tim
+## OfficeTime team
 
-Predstavljamo tim iza projekta **RE:searcher**!
+Introducing the team behind the project **RE:searcher**!
 
 
 Tara Pogančev | Vuk Čabrilo | Milan Popđurđev | Laslo Uri
 --- | --- | --- | ---
-<a href="https://www.linkedin.com/in/tara-pogancev/"><image src="re_searcher_ui/assets/tara.jpg" height="auto" width="100" style="border-radius:0%"></a>|<a href="https://www.linkedin.com/in/vuk-%C4%8Dabrilo-63b369207/"><image src="re_searcher_ui/assets/vuk.jpg" height="auto" width="100" style="border-radius:0%"></a> | <a href="https://www.linkedin.com/in/milan-pop%C4%91ur%C4%91ev/"><image src="re_searcher_ui/assets/milan.jpg" height="auto" width="100" style="border-radius:0%"></a> | <a href="https://www.linkedin.com/in/laslo-uri/"><image src="re_searcher_ui/assets/laslo.jpg" height="auto" width="100" style="border-radius:0%"></a>
+<a href="https://www.github.com/tara-pogancev/"><image src="re_searcher_ui/assets/tara.jpg" height="auto" width="100" style="border-radius:0%"></a>|<a href="https://www.github.com/vukca/"><image src="re_searcher_ui/assets/vuk.jpg" height="auto" width="100" style="border-radius:0%"></a> | <a href="https://www.github.com/milanp98/"><image src="re_searcher_ui/assets/milan.jpg" height="auto" width="100" style="border-radius:0%"></a> | <a href="https://github.com/laslo-uri/"><image src="re_searcher_ui/assets/laslo.jpg" height="auto" width="100" style="border-radius:0%"></a>
 <a href="https://www.linkedin.com/in/tara-pogancev/"><image src="assets/TeamMembers/TaraReal.png" height="auto" width="100" style="border-radius:0%"></a>|<a href="https://www.linkedin.com/in/vuk-%C4%8Dabrilo-63b369207/"><image src="assets/TeamMembers/VukReal.png" height="auto" width="100" style="border-radius:0%"></a> | <a href="https://www.linkedin.com/in/milan-pop%C4%91ur%C4%91ev/"><image src="assets/TeamMembers/MilanReal.png" height="auto" width="100" style="border-radius:0%"></a> | <a href="https://www.linkedin.com/in/laslo-uri/"><image src="assets/TeamMembers/LasloReal.png" height="auto" width="100" style="border-radius:0%"></a>
 
 ---
