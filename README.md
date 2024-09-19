@@ -27,7 +27,7 @@ The goal is to provide users with a simple way to search and manage documents, f
 # Documentation PDF
 [RE:SEARCHER - Complete documentation in Serbian](https://github.com/Serbian-AI-Society/OfficeTime/blob/main/assets/REsearcher%20Dokumentacija.pdf)
 
-## Implementacija
+## Implementation
 
 Our project repository consists of two directories: **backend** and **frontend**.
 
